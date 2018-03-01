@@ -1,7 +1,7 @@
 {
 "version": 3,
-"mappings": "",
-"sources": [],
+"mappings": "AAAA,SAAS;EACR,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,WAAW,EAAE,oBAAoB;EACjC,YAAY,EAAE,GAAG;;AAClB,gLAAgL;EAC/K,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;EACzB,aAAa,EAAE,GAAG;;AACnB,WAAW;EACV,WAAW,EAAE,KAAK;EAClB,SAAS,EAAE,IAAI",
+"sources": ["../sass/bootstrap--custom.sass"],
 "names": [],
 "file": "bootstrap--custom.css"
 }
