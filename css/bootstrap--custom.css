@@ -2,7 +2,8 @@
   font-size: 17px;
   line-height: 19px;
   font-family: "Roboto Slab", serif;
-  margin-right: 7px; }
+  text-align: center;
+  margin: 0 3.7px; }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
   color: #fff;
@@ -10,8 +11,20 @@
   border-radius: 6px; }
 
 .navbar-collapse {
-  margin-left: 100px;
+  margin: 0 5.2vw;
   flex-wrap: wrap;
-  max-height: 72px; }
+  background-color: #fff;
+  border-radius: 6px; }
+
+.navbar {
+  padding-left: 0;
+  padding-right: 0; }
+
+.navbar-brand {
+  margin-left: 4.7vw;
+  margin-right: 0; }
+
+.navbar-toggler {
+  margin-right: 8vw; }
 
 /*# sourceMappingURL=bootstrap--custom.css.map */
