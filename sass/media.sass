@@ -1,5 +1,12 @@
-// @media screen and (max-width: 992px) 
-// 	.navbar-brand
-// 		position: absolute
-// 		top: 50%
-// 		margin-top: -95.5px
+@media screen and (min-width: 992px)
+	.nav
+		&bar-brand
+			margin-left: 74px
+
+@media screen and (max-width: 992px)
+	.nav
+		&-item
+			display: flex
+			justify-content: center
+		&-link
+			min-width: 180px

@@ -6,8 +6,17 @@ header {
   height: 600px;
   padding-top: 64px; }
 
-nav {
-  height: 72px;
-  background-color: #fff; }
+.navbar__left-bg {
+  background-color: #fff;
+  width: 4.6vw;
+  height: 71px;
+  align-self: center; }
+
+.header__phone {
+  font-size: 24px;
+  line-height: 46px;
+  color: white;
+  font-family: "Roboto Slab", serif;
+  flex-grow: 1; }
 
 /*# sourceMappingURL=main.css.map */
