@@ -1,6 +1,12 @@
 @media screen and (min-width: 992px) {
+  .navbar-light .navbar-brand {
+    margin-right: 98px; }
+
   .navbar-brand {
-    margin-left: 74px; } }
+    margin-left: 74px; }
+
+  .header__title {
+    margin-left: 373px; } }
 @media screen and (max-width: 992px) {
   .nav-item {
     display: flex;

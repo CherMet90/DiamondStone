@@ -3,14 +3,19 @@ header {
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  height: 600px;
-  padding-top: 64px; }
-
-.navbar__left-bg {
-  background-color: #fff;
-  width: 4.6vw;
-  height: 71px;
-  align-self: center; }
+  min-height: 600px;
+  padding-top: 64px;
+  padding-bottom: 75px; }
+  header h1 {
+    font-size: calc( 0.01812 * 100vw + 29.2px );
+    color: white;
+    font-family: "Roboto Slab", serif;
+    font-weight: bold;
+    margin-bottom: 86px; }
+  header h2 {
+    font-size: 18px;
+    color: white;
+    font-family: "Roboto Slab", serif; }
 
 .header__phone {
   font-size: 24px;
