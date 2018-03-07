@@ -24,4 +24,17 @@ header {
   font-family: "Roboto Slab", serif;
   flex-grow: 1; }
 
+.stone-catalogue {
+  padding-top: 70px; }
+  .stone-catalogue h3 {
+    font-size: 32px;
+    line-height: 46px;
+    color: #333333;
+    font-family: "Roboto Slab";
+    font-weight: bold; }
+  .stone-catalogue > hr {
+    width: 100px;
+    border-width: 4px;
+    border-color: #f15c2e; }
+
 /*# sourceMappingURL=main.css.map */
