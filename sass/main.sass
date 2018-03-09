@@ -24,20 +24,47 @@ header
 		font-family: "Roboto Slab", serif
 .header
 	&__phone
-		font-size: 24px
+		font-size: 12px
 		line-height: 46px
 		color: rgb(255,255,255)
 		font-family: "Roboto Slab", serif
 		flex-grow: 1
+		& strong
+			font-size: 24px
 .stone-catalogue
 	padding-top: 70px
 	& h3
 		font-size: 32px
 		line-height: 46px
 		color: rgb(51,51,51)
-		font-family: "Roboto Slab"
+		font-family: "Roboto Slab", serif
 		font-weight: bold
 	& > hr
 		width: 100px
 		border-width: 4px
 		border-color: #f15c2e
+	&--items
+		padding: 15px 0
+	&--item
+		font-size: 22px
+		color: rgb(51,51,51)
+		font-family: "Roboto Slab", serif
+		display: inline-flex
+		flex-direction: column
+		align-items: center
+		cursor: pointer
+		&:hover
+			color: rgb(241,92,46)
+			text-decoration: none
+		& img
+			border-radius: 50%
+			width: 202px
+			height: 202px
+			margin: 0 15px
+			cursor: pointer
+		& hr
+			width: 50px
+			border-color: #ecebe9
+		& h4
+			max-width: 202px
+			cursor: pointer

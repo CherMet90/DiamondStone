@@ -7,7 +7,7 @@ header {
   padding-top: 64px;
   padding-bottom: 75px; }
   header h1 {
-    font-size: calc( 0.01812 * 100vw + 29.2px );
+    font-size: calc( 0.018125 * 100vw + 29.2px );
     color: white;
     font-family: "Roboto Slab", serif;
     font-weight: bold;
@@ -18,11 +18,13 @@ header {
     font-family: "Roboto Slab", serif; }
 
 .header__phone {
-  font-size: 24px;
+  font-size: 12px;
   line-height: 46px;
   color: white;
   font-family: "Roboto Slab", serif;
   flex-grow: 1; }
+  .header__phone strong {
+    font-size: 24px; }
 
 .stone-catalogue {
   padding-top: 70px; }
@@ -30,11 +32,36 @@ header {
     font-size: 32px;
     line-height: 46px;
     color: #333333;
-    font-family: "Roboto Slab";
+    font-family: "Roboto Slab", serif;
     font-weight: bold; }
   .stone-catalogue > hr {
     width: 100px;
     border-width: 4px;
     border-color: #f15c2e; }
+  .stone-catalogue--items {
+    padding: 15px 0; }
+  .stone-catalogue--item {
+    font-size: 22px;
+    color: #333333;
+    font-family: "Roboto Slab", serif;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer; }
+    .stone-catalogue--item:hover {
+      color: #f15c2e;
+      text-decoration: none; }
+    .stone-catalogue--item img {
+      border-radius: 50%;
+      width: 202px;
+      height: 202px;
+      margin: 0 15px;
+      cursor: pointer; }
+    .stone-catalogue--item hr {
+      width: 50px;
+      border-color: #ecebe9; }
+    .stone-catalogue--item h4 {
+      max-width: 202px;
+      cursor: pointer; }
 
 /*# sourceMappingURL=main.css.map */
