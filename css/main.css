@@ -1,3 +1,15 @@
+h3 {
+  font-size: 32px;
+  line-height: 46px;
+  color: #333333;
+  font-family: "Roboto Slab", serif;
+  font-weight: bold; }
+
+hr {
+  width: 100px;
+  border-width: 4px;
+  border-color: #f15c2e; }
+
 header {
   background-image: url(../img/header.jpg);
   background-repeat: no-repeat;
@@ -28,18 +40,6 @@ header {
 
 .stone-catalogue {
   padding-top: 70px; }
-  .stone-catalogue h3 {
-    font-size: 32px;
-    line-height: 46px;
-    color: #333333;
-    font-family: "Roboto Slab", serif;
-    font-weight: bold; }
-  .stone-catalogue > hr {
-    width: 100px;
-    border-width: 4px;
-    border-color: #f15c2e; }
-  .stone-catalogue--items {
-    padding: 15px 0; }
   .stone-catalogue--item {
     font-size: 22px;
     color: #333333;
@@ -47,7 +47,7 @@ header {
     display: inline-flex;
     flex-direction: column;
     align-items: center;
-    cursor: pointer; }
+    margin: 15px 0; }
     .stone-catalogue--item:hover {
       color: #f15c2e;
       text-decoration: none; }
@@ -59,9 +59,19 @@ header {
       cursor: pointer; }
     .stone-catalogue--item hr {
       width: 50px;
-      border-color: #ecebe9; }
+      border-color: #ecebe9;
+      border-width: 1px; }
     .stone-catalogue--item h4 {
       max-width: 202px;
       cursor: pointer; }
+
+.our-works {
+  background-image: url(../img/ourWorks--bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px calc( 0.240625 * 100vw + -62px ); }
+  .our-works .carousel {
+    margin: 45px 0; }
 
 /*# sourceMappingURL=main.css.map */

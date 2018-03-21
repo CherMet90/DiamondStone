@@ -11,7 +11,6 @@
   height: 215px;
   min-width: 320px; }
   .navbar-brand {
-    min-width: 201px;
     height: 100%; }
   .navbar-collapse {
     background-color: #fff;
@@ -20,5 +19,28 @@
     color: #fff;
     background-color: #f15c2e;
     border-radius: 6px; }
+
+.carousel-inner {
+  border: 0.5vw solid #fff;
+  border-radius: 8px 8px 0 0; }
+
+.carousel-control-next,
+.carousel-control-prev {
+  width: 12%; }
+
+.carousel-indicators {
+  position: static;
+  bottom: -3px;
+  margin: 0;
+  border: 0.5vw solid #fff;
+  border-left: 0.25vw solid #fff;
+  border-right: 0.25vw solid #fff;
+  margin-top: -0.52vw; }
+  .carousel-indicators li {
+    margin: 0;
+    width: auto;
+    height: auto;
+    border-left: 0.25vw solid #fff;
+    border-right: 0.25vw solid #fff; }
 
 /*# sourceMappingURL=bootstrap--custom.css.map */
